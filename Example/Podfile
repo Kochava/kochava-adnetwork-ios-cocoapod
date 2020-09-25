@@ -1,11 +1,8 @@
 use_frameworks!
 
+platform :ios, '10.3'
+
 target 'KochavaAdNetworkiOS_Example' do
   pod 'KochavaAdNetworkiOS', :path => '../'
 
-  target 'KochavaAdNetworkiOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

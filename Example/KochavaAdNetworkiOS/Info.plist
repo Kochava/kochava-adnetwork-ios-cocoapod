@@ -35,5 +35,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Please approve this for tracking purposes.  This is generic text located in the info.plist file.</string>
 </dict>
 </plist>
