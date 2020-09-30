@@ -43,7 +43,12 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '10.3'
     s.vendored_library = 'KochavaAdNetworkiOS/Libraries/libKochavaAdNetworkiOS.a'
     s.preserve_path = 'KochavaAdNetworkiOS/Libraries/libKochavaAdNetworkiOS.a'
-    s.library = 'KochavaAdNetworkiOS'
+    # s.library = 'KochavaAdNetworkiOS'
 
     s.swift_versions = '5.0'
+
+    # Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
+    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
