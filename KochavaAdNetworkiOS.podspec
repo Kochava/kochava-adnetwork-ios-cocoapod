@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'KochavaAdNetworkiOS'
-    s.version          = '4.1.0'
+    s.version          = '4.1.1'
     s.summary          = 'The KochavaAdNetwork module of the KochavaTracker iOS SDK.'
     
     # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
     
     s.public_header_files = 'KochavaAdNetworkiOS/Classes/**/*.h'
     s.frameworks   = 'Foundation'
-    s.dependency 'KochavaTrackeriOS', '~> 4.1.0'
+    s.dependency 'KochavaTrackeriOS', '~> 4.1.1'
 
     s.platform     = :ios, '10.3'
     s.vendored_library = 'KochavaAdNetworkiOS/Libraries/libKochavaAdNetworkiOS.a'
