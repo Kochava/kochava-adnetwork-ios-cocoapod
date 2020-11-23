@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
-        KVALog.shared.level = .trace
+        // KVALog.shared.level = .trace
         
         print("KVACoreProduct.shared = \(KVACoreProduct.shared.kva_asForContextObject(withContext: .log)!)\n")
 
