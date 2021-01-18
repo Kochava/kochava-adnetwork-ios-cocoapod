@@ -3,7 +3,7 @@
 //  KochavaAdNetworkiOS
 //
 //  Created by johnbushnell on 09/24/2020.
-//  Copyright (c) 2020 johnbushnell. All rights reserved.
+//  Copyright (c) 2020 - 2021 johnbushnell. All rights reserved.
 //
 
 import UIKit

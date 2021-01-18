@@ -3,7 +3,7 @@
 //  KochavaLocationiOS
 //
 //  Created by johnbushnell on 05/01/2019.
-//  Copyright (c) 2019 - 2020 Kochava. All rights reserved.
+//  Copyright (c) 2019 - 2021 Kochava. All rights reserved.
 //
 
 
