@@ -17,6 +17,9 @@
 
 #import "KVAAdNetworkProduct.h"
 #import "KVAAdNetwork.h"
+#import "KVAAdNetworkConversion.h"
+#import "KVAAdNetworkConversionResult.h"
+#import "KVAAdNetworkProtocol.h"
 
 
 
